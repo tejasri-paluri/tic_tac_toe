@@ -159,7 +159,7 @@ public class Game {
             j--;
         }
         pattern = sb.toString();
-        if(pattern.equals(zero)&&pattern.equals(cross))
+        if(pattern.equals(zero)||pattern.equals(cross))
         {
              return true;
         }
